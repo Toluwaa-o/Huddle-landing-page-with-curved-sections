@@ -373,8 +373,13 @@ img {
     vertical-align: middle;
 }
 
-.contact-info > div > p {
+.contact-info > address > div > p {
     font-size: 1em;
+}
+
+.contact-info > address > div > p > a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
 }
 
 .media {
